@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+	<head>
+		<script src="calculator.js"></script>
+		<link href="calculator_styles.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	<table><tr><th>
+			<textarea id="screen" rows="1" cols="40" readonly></textarea>
+	</th></tr>
+		<tr><th>
+		<p>
+			<button id="button1" type="button" onclick='addSymbol("screen","button1")'> 1 </button>
+			<button id="button2" type="button" onclick='addSymbol("screen","button2")'> 2 </button>
+			<button id="button3" type="button" onclick='addSymbol("screen","button3")'> 3 </button>
+			<button id="button+" type="button" onclick='addSymbol("screen","button+")'> + </button>
+			<button id="buttonsin" type="button" onclick='addSymbol("screen","buttonsin")'> sin </button>
+			<button id="button^" type="button" onclick='addSymbol("screen","button^")'> ^ </button>
+			<button id="buttonC" onclick='clearSymbol("screen")'>C</button>
+		</p>
+		<p>
+			<button id="button4" type="button" onclick='addSymbol("screen","button4")'> 4 </button>
+			<button id="button5" type="button" onclick='addSymbol("screen","button5")'> 5 </button>
+			<button id="button6" type="button" onclick='addSymbol("screen","button6")'> 6 </button>
+			<button id="button-" type="button" onclick='addSymbol("screen","button-")'>-</button>
+			<button id="buttoncos" type="button" onclick='addSymbol("screen","buttoncos")'> cos </button>
+			<button id="button(" type="button" onclick='addSymbol("screen","button(")'> ( </button>
+			<button id="buttonCE" onclick='clearScreen("screen")'>CE</button>
+		</p>
+		<p>
+			<button id="button7" type="button" onclick='addSymbol("screen","button7")'> 7 </button>
+			<button id="button8" type="button" onclick='addSymbol("screen","button8")'> 8 </button>
+			<button id="button9" type="button" onclick='addSymbol("screen","button9")'> 9 </button>
+			<button id="button*" type="button" onclick='addSymbol("screen","button*")'> * </button>
+			<button id="buttontg" type="button" onclick='addSymbol("screen","buttontg")'> tg </button>
+			<button id="button)" type="button" onclick='addSymbol("screen","button)")'> ) </button>
+			<button id="button%" type="button" onclick='addSymbol("screen","button%")'> % </button>
+		</p>
+		<p>
+			<button id="button0" type="button" onclick='addSymbol("screen","button0")'> 0 </button>
+			<button id="buttone" type="button" onclick='addSymbol("screen","buttone")'> e </button>
+			<button id="buttonpi" type="button" onclick='addSymbol("screen","buttonpi")'> pi </button>
+			<button id="button/" type="button" onclick='addSymbol("screen","button/")'> / </button>
+			<button id="buttonctg" type="button" onclick='addSymbol("screen","buttonctg")'> ctg </button>
+			<button id="button" type="button" onclick='addSymbol("screen","button")'> abs </button>
+			<button id="button=" type="button" onclick='getResult("screen")'> = </button>
+		</p>
+	</th></tr></table>
+	</body>
+	
+</html>

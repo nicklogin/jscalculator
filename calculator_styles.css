@@ -1,0 +1,9 @@
+button {
+    width: 35px;
+}
+
+tr {
+    background-color: darkgrey;
+    border: hidden;
+    font-family: "Courier New", Courier, monospace;
+}
